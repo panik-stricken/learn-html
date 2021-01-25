@@ -143,43 +143,72 @@ How you organize your content, is ultimately up too you. However, there are a se
     the browser, and the user, to visually identify what this group of data is about exactly.</td><td></td></tr>
     <tr><td>&lt;footer&gt; ... &lt;/footer&gt;</td><td>
     A section to display related data to the primary content of this collection.</td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-    <tr><td>&lt;&gt; ... &lt;/&gt;</td><td></td><td></td></tr>
-  <tr><td></td><td></td><td></td></tr>
- </tbody>
+    <tr><td>&lt;span&gt; ... &lt;/span&gt;</td><td>This is an inline element, with much the same purpose as the div. <br>Generic placeholder.</td><td></td></tr>
+    <tr><td>&lt;main&gt; ... &lt;/main&gt;</td><td><em>There can be only one.</em> <br>
+    The main element holds the bulk of the page information.
+    </td><td></td></tr>
+    <tr><td>&lt;article&gt; ... &lt;/article&gt;</td><td rowspan='2'>
+    Some of your articles, might have sections. <br>Some of your sections, might be broken into articles.<br>This is going to be determined by your interpertation of the content.</td><td></td></tr>
+    <tr><td>&lt;section&gt; ... &lt;/section&gt;</td><td></td></tr>
+    <tr><td>&lt;nav&gt; ... &lt;/nav&gt;</td><td>Navigation specific collections belong in one of these.</td><td></td></tr>
+    <tr><td>&lt;aside&gt; ... &lt;/aside&gt;</td><td>Related, or relatable, but not exactly part of the content. <br>OR, a pulled blurb from the content, copied for emphasis.</td><td></td></tr>
+    <tr><td>&lt;details&gt; ... &lt;/details&gt;</td><td rowspan='2'>
+    These work together to create a nested collaspible segment, by default at least.
+    </td><td></td></tr>
+    <tr><td>&lt;summary&gt; ... &lt;/summary&gt;</td><td></td></tr>
+     </tbody>
 </table>
+
+## Lists
+
+<table>
+ <thead>
+  <tr><th>Tag</th><th>description <em>-o-</em> summary</th><th>example</th></tr>
+   <tr><td colspan='3'> Let's face it. A lot of things, require a list.</td></tr>
+ </thead>
+ <tbody>
+    <tr><td>&lt;ul&gt; ... &lt;/ul&gt;</td><td rowspan='2'>
+     unordered lists <br>
+     ordered lists <br> 
+    </td><td></td></tr>
+    <tr><td>&lt;ol&gt; ... &lt;/ol&gt;</td><td></td></tr>
+    <tr><td>&lt;li&gt; ... &lt;/li&gt;</td><td>The list item, use in both ordered and unordered lists</td><td></td></tr>
+    <tr><td>&lt;dl&gt; ... &lt;/dl&gt;</td><td>A definition list</td><td></td></tr>
+    <tr><td>&lt;dt&gt; ... &lt;/dt&gt;</td><td>Definition Term</td><td></td></tr>
+    <tr><td>&lt;dd&gt; ... &lt;/dd&gt;</td><td>Term Description</td><td></td></tr>
+     </tbody>
+</table>
+
+## Tables
+Much of this page has been built using tables. So the idea ought to be fairly straightforward.
+Tables are a way to layout your data, where columns represent a piece of the data record, and the row is the full record. There are other interpretations, but this is a brief summary of the most common.
+
+<table>
+  <caption>Table Caption</caption>
+ <thead>
+  <tr><th>Tag</th><th>description <em>-o-</em> summary</th><th>example</th></tr>
+   <tr><td colspan='3'>Lists are good... <br> But some things work even better with tables</td></tr>
+ </thead>
+ <tbody>
+    <tr><td>&lt;table&gt; ... &lt;/table&gt;</td><td>The full table element</td><td></td></tr>
+    <tr><td>&lt;caption&gt; ... &lt;/caption&gt;</td><td>A Caption. <br> I didn't use these very often, but they do lend a bit of <br>pizazz</td><td></td></tr>
+    <tr><td>&lt;thead&gt; ... &lt;/thead&gt;</td><td rowspan='3'> The sections of a table. Not all will be required.</td><td></td></tr>
+    <tr><td>&lt;tbody&gt; ... &lt;/tbody&gt;</td><td></td></tr>
+    <tr><td>&lt;tfoot&gt; ... &lt;/tfoot&gt;</td><td></td></tr>
+    <tr><td>&lt;tr&gt; ... &lt;/tr&gt;</td><td>All data is organized into rows</td><td></td></tr>
+    <tr><td>&lt;th&gt; ... &lt;/th&gt;</td><td>A label for the (a) header row</td><td></td></tr>
+    <tr><td>&lt;td&gt; ... &lt;/td&gt;</td><td>The data in the row.</td><td></td></tr>
+</tbody>
+</table>
+
+
+## And that is enough for now
+The majority of all static pages can be handled, right there.  
+Images can be handy, the canvas and svg will be featured later.  
+Many different formating tags are still left to be covered.  
+Forms, and the collection of data.  
+But this abbreviated collection can keep a perfectionist busy for months.  
+> Sadly, I know this from experience
 
 <hr>
 <p id='def1'>SEO Crawler: Search Engine Optimization. Basically, <em>Google</em></p>
